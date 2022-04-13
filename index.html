@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Social proof section</title>
+</head>
+<body class="h-screen relative">
+<picture>
+    <source media="(max-width:425px)" srcset="./images/bg-pattern-top-mobile.svg" class="absolute top-0 left-0 -z-10">
+    <source media="(max-width:425px)" srcset="./images/bg-pattern-bottom-mobile.svg"
+            class="absolute bottom-0 right-0 -z-10">
+    <source media="(min-width:426px)" srcset="./images/bg-pattern-top-desktop.svg" class="absolute top-0 left-0 -z-10">
+    <source media="(min-width:426px)" srcset="./images/bg-pattern-top-desktop.svg"
+            class="absolute bottom-0 right-0 -z-10">
+    <img src="./images/bg-pattern-top-mobile.svg" alt="mobile-top" class="absolute top-0 left-0 -z-10">
+    <img src="./images/bg-pattern-bottom-mobile.svg" alt="mobile-bottom" class="absolute bottom-0 right-0 -z-10">
+</picture>
+<section class="px-5 py-16 lg:px-32">
+
+    <div class="md:flex md:items-center md:justify-between">
+        <div class="md:w-96 lg:w-1/3">
+            <h1 class="text-4xl text-center md:text-left leading-7 text-purple-900 mb-6 font-bold md:w-80 md:tracking-wider md:leading-8">
+                10,000+ of our users love our products.</h1>
+
+            <p class="text-center md:text-left md:tracking-wider text-purple-900 mb-8">
+                We only provide great products combined with excellent customer service.
+                See what our satisfied customers are saying about our services.
+            </p>
+        </div>
+
+        <div class="my-10 md:flex md:flex-col md:flex-1 md:justify-start">
+            <div class="bg-purple-100 rounded-lg p-3 md:p-5 flex flex-col md:flex-row items-center mb-4 md:w-3/4">
+                <div class="flex mb-2 md:mr-5 md:items-center">
+                    <img src="./images/icon-star.svg" alt="star-1" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-2" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-3" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-4" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-5">
+                </div>
+                <p class="text-purple-900 font-bold">Rated 5 Stars in Reviews</p>
+            </div>
+            <div class="bg-purple-100 rounded-lg p-3 md:p-5 flex flex-col md:flex-row items-center mb-4 md:w-3/4 md:self-center">
+                <div class="flex mb-2 md:mr-5 md:items-center">
+                    <img src="./images/icon-star.svg" alt="star-1" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-2" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-3" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-4" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-5">
+                </div>
+                <p class="text-purple-900 font-bold">Rated 5 Stars in Report Guru</p>
+            </div>
+            <div class="bg-purple-100 rounded-lg p-3 md:p-5 flex flex-col md:flex-row items-center mb-4 md:w-3/4 md:self-end">
+                <div class="flex mb-2 md:mr-5 md:items-center">
+                    <img src="./images/icon-star.svg" alt="star-1" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-2" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-3" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-4" class="mr-2">
+                    <img src="./images/icon-star.svg" alt="star-5">
+                </div>
+                <p class="text-purple-900 font-bold">Rated 5 Stars in BestTech</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="md:flex md:my-10 md:items-center">
+        <div class="bg-purple-900 text-white p-8 rounded-lg mb-6 md:mb-0">
+            <div class="flex items-center mb-6">
+                <img src="./images/image-colton.jpg" alt="colton" class="rounded-full w-12 mr-5">
+                <div>
+                    <p class="font-bold text-sm">Colton Smith</p>
+                    <p class="text-pink-500">Verified Buyer</p>
+                </div>
+            </div>
+            <p>"We needed the same printed design as the one we had ordered a week prior.
+                Not only did they find the original order, but we also received it in time.
+                Excellent!"
+            </p>
+        </div>
+
+        <div class="bg-purple-900 text-white p-8 rounded-lg mb-6 md:mx-6 md:self-center md:mb-0 md:translate-y-6">
+            <div class="flex items-center mb-6">
+                <img src="./images/image-irene.jpg" alt="irene" class="rounded-full w-12 mr-5">
+                <div>
+                    <p class="font-bold text-sm">Irene Roberts</p>
+                    <p class="text-pink-500">Verified Buyer</p>
+                </div>
+            </div>
+            <p>
+                "Customer service is always excellent and very quick turn around. Completely
+                delighted with the simplicity of the purchase and the speed of delivery."
+            </p>
+        </div>
+
+        <div class="bg-purple-900 text-white p-8 rounded-lg mb-6 md:mb-0 md:translate-y-12">
+            <div class="flex items-center mb-6">
+                <img src="./images/image-anne.jpg" alt="anne" class="rounded-full w-12 mr-5">
+                <div>
+                    <p class="font-bold text-sm">Anne Wallace</p>
+                    <p class="text-pink-500">Verified Buyer</p>
+                </div>
+            </div>
+            <p>"Put an order with this company and can only praise them for the very high
+                standard. Will definitely use them again and recommend them to everyone!"
+            </p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
